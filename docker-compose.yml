@@ -1,0 +1,6 @@
+version: '2'
+services:
+  commontool:
+    build:
+      context: ./docker-common
+    image: nothingdhsp/common-tool:0.0.1
